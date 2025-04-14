@@ -5,6 +5,13 @@ class GitZ < Formula
   sha256 "58f839256441f87363ac0c23f6e7e65b385523cf6c81052e4808228629c27db7"
   license "GPL-3.0-only"
 
+  bottle do
+    root_url "https://github.com/ejpcmac/homebrew-repo/releases/download/git-z-0.2.3"
+    sha256 cellar: :any_skip_relocation, arm64_sequoia: "6a8a1f0f439452736d2b1e43e567d4a0c43a52f3e517c41524021894584f8e57"
+    sha256 cellar: :any_skip_relocation, ventura:       "59f16693caff966ca9b91d5a98c70c67eb0247e8f61fbc4d814b223b95772466"
+    sha256 cellar: :any_skip_relocation, x86_64_linux:  "5999ff58935d26dc421d42ac799acd88a9fa41161683fb9569bb221f8f834503"
+  end
+
   depends_on "rust" => :build
 
   def install
