@@ -6,10 +6,10 @@ class GitZ < Formula
   license "GPL-3.0-only"
 
   bottle do
-    root_url "https://github.com/ejpcmac/homebrew-repo/releases/download/git-z-0.2.3"
-    sha256 cellar: :any_skip_relocation, arm64_sequoia: "6a8a1f0f439452736d2b1e43e567d4a0c43a52f3e517c41524021894584f8e57"
-    sha256 cellar: :any_skip_relocation, ventura:       "59f16693caff966ca9b91d5a98c70c67eb0247e8f61fbc4d814b223b95772466"
-    sha256 cellar: :any_skip_relocation, x86_64_linux:  "5999ff58935d26dc421d42ac799acd88a9fa41161683fb9569bb221f8f834503"
+    root_url "https://github.com/ejpcmac/homebrew-repo/releases/download/git-z-0.2.4"
+    sha256 cellar: :any_skip_relocation, arm64_sequoia: "41d3df488e7d54097b37f57bd137054b08fb1e10998f95373701c53237c55277"
+    sha256 cellar: :any_skip_relocation, ventura:       "1c09f6910461ec09631076e7244f34a6de295be46e5ce7a33d10e4ebce691b9d"
+    sha256 cellar: :any_skip_relocation, x86_64_linux:  "b0ec16b60d2fde464500a1aced4d9b8615d9bda21533373e172d22000d862d09"
   end
 
   depends_on "rust" => :build
