@@ -1,8 +1,8 @@
 class GitZ < Formula
   desc "Git extension to go beyond"
   homepage "https://github.com/ejpcmac/git-z"
-  url "https://github.com/ejpcmac/git-z/archive/refs/tags/v0.2.3.tar.gz"
-  sha256 "58f839256441f87363ac0c23f6e7e65b385523cf6c81052e4808228629c27db7"
+  url "https://github.com/ejpcmac/git-z/archive/refs/tags/v0.2.4.tar.gz"
+  sha256 "35e3266466d8c637eb0a17bf006e889027dbb7e84a3e932b444e7c947e6caff5"
   license "GPL-3.0-only"
 
   bottle do
